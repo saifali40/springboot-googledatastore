@@ -1,4 +1,6 @@
 # Read Me First
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaifali40%2Fspringboot-googledatastore.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaifali40%2Fspringboot-googledatastore?ref=badge_shield)
+
 The following was discovered as part of building this project:
 
 * The project works with Java11, Google appengine, Google datastore, Spring data,Spring boot.
@@ -159,3 +161,7 @@ These additional references should also help you:
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 * [Configure the Spring AOT Plugin](https://docs.spring.io/spring-native/docs/0.9.0/reference/htmlsingle/#spring-aot-gradle)
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaifali40%2Fspringboot-googledatastore.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaifali40%2Fspringboot-googledatastore?ref=badge_large)
