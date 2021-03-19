@@ -109,8 +109,26 @@ spring.main.allow-bean-definition-overriding=true
 ```
 and if you want to add new namespae
 ```
-spring.cloud.gcp.datastore.namespace=newnamespace
+spring.cloud.gcp.datastore.namespace=new_namespace
 ```
+
+## Deploying is little different now.
+
+if you haven't set up the gcloud follow the [link](https://cloud.google.com/deployment-manager/docs/step-by-step-guide/installation-and-setup#install) and update
+
+
+you have to create jar before using the deploying 
+so once you done with the changes you have to create the build jar using 
+```bash
+$ ./gradlew clean build
+```
+ and the build will be ready.
+
+one the build is ready you can deploy using 
+```bash
+$ gcloud app deploy
+```
+
 
 
 ### Reference Documentation
